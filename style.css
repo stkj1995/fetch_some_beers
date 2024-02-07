@@ -130,8 +130,8 @@ header {
   max-width: 55ch;
 }
 
-.single_beer section {
-}
+/* .single_beer section {
+} */
 
 .single_beer_info {
   display: flex;
