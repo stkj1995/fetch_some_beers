@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fetch Some Beers</title>
     <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
+  </head>
+  <body>
+    <nav><a href="index.html">Beer</a></nav>
     <header>
-        <h1>Fetch Some Beers</h1>
-        <p>This is the fetching beers example</p>
+      <h1>Fetch Some Beers</h1>
+      <p>This is the fetching beers example</p>
     </header>
     <section>
-        <h2>The Beers</h2>
-        <div class="beer_container"></div>
+      <h2>The Beers</h2>
+      <div class="beer_container"></div>
     </section>
     <script src="script.js"></script>
-
-
-    <template class="beer_template">
-        <article class="beer_article">
-            <div class="beer_image_container">
-                <img class="beer_image" />
-            </div>
-            <h3 class="beer_name">Goood Beer</h3>
-            <p class="beer_tagline">Drink god beer</p>
-            <p class="beer_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis animi
-                nostrum
-                ipsa nisi repellendus, aliquam aperiam iure repellat pariatur temporibus, saepe et magnam commodi fugit
-                possimus architecto ea aut corrupti.</p>
-        </article>
-    </template>
-</body>
-
+  </body>
 </html>
+<template class="beer_template">
+  <article class="beer_article">
+    <div class="beer_abv_info">
+      <p class="beer_abv">abv: <span class="beer_abv_data">5.5</span>%</p>
+      <p class="beer_strong hide">Strong</p>
+    </div>
+    <div class="beer_image_container">
+      <img class="beer_image" />
+    </div>
+    <h3 class="beer_name">Goood Beer</h3>
+    <p class="beer_tagline">Drink god beer</p>
+    <p class="beer_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis animi nostrum ipsa nisi repellendus, aliquam aperiam iure repellat pariatur temporibus, saepe et magnam commodi fugit possimus architecto ea aut corrupti.</p>
+    <p class="beer_twist hide">With a twist!</p>
+    <a class="beer_link"></a>
+  </article>
+</template>
